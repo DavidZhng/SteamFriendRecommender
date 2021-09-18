@@ -1,0 +1,13 @@
+Reifon Chiu, Leon Hertzberg, David Zhang
+
+Name: Steam Friends Finder
+
+Description:
+Our project is an implementation project that works with Social Networks and Recommendations. We use the Steam WebAPI to recommend friends to an inputted user. We created a simple version of the Strong Triadic Closure: by taking the user's 10 most played games on Steam and going through each friend's friends, we recommend that the user add any of the top 5 users that we recommend. Our recommendation algorithm is simple: each friend's friend gets a score that is equal to the amount of minutes played for each of the original user's top 10 games.
+
+Work Breakdown:
+Reifon: Used Postman to determine API outputs. Outlined the initial approach to the project and managed API calls and arguments. Debugged code, commented the code, and fixed code style. Wrote summary.txt.
+
+Leon: Developed the GUI, which includes grabbing all the information and displaying it. Wrote usermanual.
+
+David: Wrote the core functions. Chose the data structures to use, and managed the logic. Also added the loading GIF. Debugged code.
